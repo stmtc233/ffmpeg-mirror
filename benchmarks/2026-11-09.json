@@ -1,0 +1,91 @@
+{
+  "date": "2026-11-09",
+  "machine": "macOS-27.0-arm64-arm-64bit-Mach-O",
+  "notes": [
+    "FFmpeg 9.0.2; decimal MB; all upstream files retained; no files removed.",
+    "Compression ran with up to 3 concurrent tasks; timings are illustrative, not isolated CPU benchmarks.",
+    "XZ/Zstd used deterministic solid TAR; 7z used solid native file archive with automatic executable filters.",
+    "Every decompressed file was compared byte-for-byte by SHA-256."
+  ],
+  "rows": [
+    {
+      "platform": "windows-amd64",
+      "method": "xz-9e-128M",
+      "bytes": 33990236,
+      "compressSeconds": 111.58,
+      "extractSeconds": 1.566,
+      "allFileHashesVerified": true
+    },
+    {
+      "platform": "windows-amd64",
+      "method": "zstd-22-long27",
+      "bytes": 36879742,
+      "compressSeconds": 102.6,
+      "extractSeconds": 0.318,
+      "allFileHashesVerified": true
+    },
+    {
+      "platform": "windows-amd64",
+      "method": "7z-LZMA2-9-128M",
+      "bytes": 35220527,
+      "compressSeconds": 73.79,
+      "extractSeconds": 0.836,
+      "allFileHashesVerified": true
+    },
+    {
+      "platform": "darwin-arm64",
+      "method": "xz-9e-128M",
+      "bytes": 21174520,
+      "compressSeconds": 36.53,
+      "extractSeconds": 0.832,
+      "allFileHashesVerified": true
+    },
+    {
+      "platform": "darwin-arm64",
+      "method": "zstd-22-long27",
+      "bytes": 24449240,
+      "compressSeconds": 37.03,
+      "extractSeconds": 0.139,
+      "allFileHashesVerified": true
+    },
+    {
+      "platform": "darwin-arm64",
+      "method": "7z-LZMA2-9-128M",
+      "bytes": 20412443,
+      "compressSeconds": 21.43,
+      "extractSeconds": 0.553,
+      "allFileHashesVerified": true
+    },
+    {
+      "platform": "linux-amd64",
+      "method": "xz-9e-128M",
+      "bytes": 26709228,
+      "compressSeconds": 57.46,
+      "extractSeconds": 1.088,
+      "allFileHashesVerified": true
+    },
+    {
+      "platform": "linux-amd64",
+      "method": "zstd-22-long27",
+      "bytes": 29188521,
+      "compressSeconds": 53.05,
+      "extractSeconds": 0.176,
+      "allFileHashesVerified": true
+    },
+    {
+      "platform": "linux-amd64",
+      "method": "7z-LZMA2-9-128M",
+      "bytes": 26382705,
+      "compressSeconds": 34.1,
+      "extractSeconds": 0.695,
+      "allFileHashesVerified": true
+    }
+  ],
+  "baselineZipBytes": {
+    "windows-amd64": 114768076,
+    "darwin-amd64": 67535624,
+    "darwin-arm64": 56713400,
+    "linux-amd64": 66549679,
+    "linux-arm64": 57409509
+  }
+}

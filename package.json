@@ -1,0 +1,7 @@
+{
+  "name": "ffmpeg-mirror",
+  "private": true,
+  "devDependencies": {
+    "edgeone": "1.6.47"
+  }
+}

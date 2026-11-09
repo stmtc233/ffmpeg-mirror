@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+downloads/
+.DS_Store
+public/
+packages/
+.build/
+node_modules/
+.edgeone/
+.env
+.env.*
